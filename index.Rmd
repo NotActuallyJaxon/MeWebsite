@@ -1,6 +1,6 @@
 ---
 title: "Jaxon Lara"
-image: "3_Treasureship_FINAL.png"
+image: "stars.jpg"
 links:
   - label: Github
     url: "https://github.com/NotActuallyJaxon"
@@ -8,7 +8,12 @@ output:
   postcards::trestles
 ---
 
-test test
+Image is a picture I took of the night sky somewhere in West Texas.
+
+I am a passionate Statistical Analyst and programmer. Some of my other interests
+include space/astronomy, sci-fi media, and world building projects. Below is a list of a few 
+of my favorite pieces of media which include some more well know TV series and a few 
+indie world building projects which I follow.
 
 ```{r, echo=FALSE}
 sci_fi = list(
@@ -20,8 +25,10 @@ sci_fi = list(
   "Lost Suns",
   "Savages"
 )
-print(sci_fi)
+cat(paste0("- ", sci_fi, collapse = "\n"))
 ```
+
+Exact time at which the web site was built
 
 ```{r, echo=FALSE}
 Sys.time()
