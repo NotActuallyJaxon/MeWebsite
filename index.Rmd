@@ -1,0 +1,28 @@
+---
+title: "Jaxon Lara"
+image: "3_Treasureship_FINAL.png"
+links:
+  - label: Github
+    url: "https://github.com/NotActuallyJaxon"
+output:
+  postcards::trestles
+---
+
+test test
+
+```{r, echo=FALSE}
+sci_fi = list(
+  "Battlestar Galactica",
+  "Stargate",
+  "Voyager",
+  "The Expanse",
+  "The Sojourn",
+  "Lost Suns",
+  "Savages"
+)
+print(sci_fi)
+```
+
+```{r, echo=FALSE}
+Sys.time()
+```
