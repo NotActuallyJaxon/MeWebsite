@@ -15,7 +15,7 @@ include space/astronomy, sci-fi media, and world building projects. Below is a l
 of my favorite pieces of media which include some more well know TV series and a few 
 indie world building projects which I follow.
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, results='asis'}
 sci_fi = list(
   "Battlestar Galactica",
   "Stargate",
